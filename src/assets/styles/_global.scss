@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 1440px;
+  display: block;
+  margin: auto;
+}
+
+.section-container {
+  padding: 0 135px;
+}
+
+.btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 1.7rem 4.2rem;
+  border: none;
+  background: #ff730d;
+  border-radius: 8px;
+}

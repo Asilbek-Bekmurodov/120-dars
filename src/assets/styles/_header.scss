@@ -1,0 +1,65 @@
+.header-section {
+  width: 100%;
+  height: calc(100vh - 6rem);
+  background-color: #fff9ed;
+  padding: 0 10rem;
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    .header-subtitle {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 23px;
+
+      color: #ff730d;
+    }
+
+    .header-title {
+      font-family: "Titania MF";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 66px;
+
+      letter-spacing: 0.06em;
+
+      color: #331c18;
+      margin-top: 2rem;
+    }
+
+    .header-paragraph {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+
+      color: #331c18;
+      margin: 2.5rem 0 2.9rem 0;
+    }
+  }
+  .fast-deliver {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+  }
+
+  .deliver-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1260px;
+    padding: 1.2rem 5.7rem;
+    background: #ffffff;
+    box-shadow: 0px 3px 12px rgba(82, 61, 61, 0.08);
+    border-radius: 20px;
+  }
+
+  .bg-img {
+    height: 600px;
+  }
+}

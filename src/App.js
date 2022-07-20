@@ -1,8 +1,15 @@
-import './App.css';
+import "./assets/styles/app.css";
+import Bunner from "./components/bunner";
+import Header from "./components/header";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <h1>Hello world</h1>
+    <div className="container">
+      <Navbar/>
+      <Header />
+      <Bunner/>
+    </div>
   );
 }
 

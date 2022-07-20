@@ -1,0 +1,59 @@
+.trand-wrapper {
+  width: 570px;
+  height: 320px;
+
+  background: #fff9f1;
+  padding: 2rem 3.5rem;
+  position: relative;
+
+  .trand-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+
+    color: #331c18;
+  }
+  .trand-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 293px;
+
+    color: #5c4946;
+    margin: 1rem 0 1.7rem;
+  }
+  .rate {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #331c18;
+  }
+  .price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #ff730d;
+    margin: 1.2rem 0 1rem;
+
+    span {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+
+      text-decoration-line: line-through;
+
+      color: #978a89;
+    }
+  }
+  .trand-img{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+  }
+
+}

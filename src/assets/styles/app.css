@@ -1,0 +1,211 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 1440px;
+  display: block;
+  margin: auto;
+}
+
+.section-container {
+  padding: 0 135px;
+}
+
+.btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 1.7rem 4.2rem;
+  border: none;
+  background: #ff730d;
+  border-radius: 8px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 10rem;
+}
+.navbar .list-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  justify-content: space-between;
+}
+.navbar .list-items .list-item a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #331c18;
+  margin: 4rem 0;
+}
+.navbar .icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.header-section {
+  width: 100%;
+  height: calc(100vh - 6rem);
+  background-color: #fff9ed;
+  padding: 0 10rem;
+}
+.header-section .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.header-section .wrapper .header-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ff730d;
+}
+.header-section .wrapper .header-title {
+  font-family: "Titania MF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
+  letter-spacing: 0.06em;
+  color: #331c18;
+  margin-top: 2rem;
+}
+.header-section .wrapper .header-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #331c18;
+  margin: 2.5rem 0 2.9rem 0;
+}
+.header-section .fast-deliver {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+}
+.header-section .deliver-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1260px;
+  padding: 1.2rem 5.7rem;
+  background: #ffffff;
+  box-shadow: 0px 3px 12px rgba(82, 61, 61, 0.08);
+  border-radius: 20px;
+}
+.header-section .bg-img {
+  height: 600px;
+}
+
+.deliver-wrap {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.bunner-section {
+  padding: 7rem 0 0;
+}
+.bunner-section .bunner-title__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bunner-section .bunner-title__wrap h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  /* identical to box height, or 145% */
+  color: #331c18;
+}
+.bunner-section .bunner-title__wrap .icon-box {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.bunner-section .bunner-title__wrap .icon-box p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  text-align: right;
+  color: #331c18;
+}
+.bunner-section .trand-container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin: 5.4rem 0 12rem;
+}
+
+.trand-wrapper {
+  width: 570px;
+  height: 320px;
+  background: #fff9f1;
+  padding: 2rem 3.5rem;
+  position: relative;
+}
+.trand-wrapper .trand-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  /* identical to box height, or 129% */
+  color: #331c18;
+}
+.trand-wrapper .trand-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 293px;
+  color: #5c4946;
+  margin: 1rem 0 1.7rem;
+}
+.trand-wrapper .rate {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #331c18;
+}
+.trand-wrapper .price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ff730d;
+  margin: 1.2rem 0 1rem;
+}
+.trand-wrapper .price span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #978a89;
+}
+.trand-wrapper .trand-img {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+}/*# sourceMappingURL=app.css.map */

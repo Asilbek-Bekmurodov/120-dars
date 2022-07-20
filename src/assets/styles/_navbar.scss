@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 10rem;
+
+  .list-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: space-between;
+
+    .list-item {
+      a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #331c18;
+        margin: 4rem 0;
+      }
+    }
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+}
